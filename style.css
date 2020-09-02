@@ -1,8 +1,14 @@
 html * {
   margin: 0;
   padding: 0;
-  color: rgb(126, 120, 120);
   font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
 }
 
 /* SKEW */
@@ -93,6 +99,11 @@ header {
   border-radius: 1rem;
   background: rgba(255, 248, 220, 0.473);
   transition: all 1s;
+  padding-top: 100px;
+}
+
+.form h2 {
+  color: rgb(113, 160, 103);
 }
 
 .review {
@@ -106,8 +117,12 @@ header {
   background: rgba(220, 255, 255, 0.473);
   z-index: 8500;
   transition: all 1s;
+  padding-top: 80px;
 }
 
+.review h2 {
+  color: rgb(83, 133, 156);
+}
 .show {
   opacity: 1;
 }
