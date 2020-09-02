@@ -1,0 +1,139 @@
+
+@media (max-width: 1320px) {
+    .skew {
+      /* border: 1px solid rgb(196, 43, 107); */
+    }
+    .right {
+      right: -2600px;
+      z-index: 1000;
+    }
+  
+    .left {
+      left: -2600px;
+      z-index: 5000;
+    }
+  }
+  
+  @media (max-width: 1210px) {
+    .skew {
+      /* border: 1px solid rgb(43, 58, 196); */
+    }
+  
+    .right {
+      right: -2700px;
+      z-index: 1000;
+    }
+  
+    .left {
+      left: -2700px;
+      z-index: 5000;
+    }
+    .car-container img {
+      display: block;
+      height: 45%;
+      width: 55%;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .skew {
+      /* border: 1px solid rgb(196, 173, 43); */
+    }
+  
+    .right {
+      right: -2850px;
+      z-index: 1000;
+    }
+  
+    .left {
+      left: -2850px;
+      z-index: 5000;
+    }
+    .car-container {
+      top: 100px;
+    }
+  }
+  
+  @media (max-width: 690px) {
+    .skew {
+      /* border: 1px solid rgb(43, 196, 196); */
+    }
+  
+    .right {
+      right: -2900px;
+      z-index: 1000;
+    }
+  
+    .left {
+      left: -2900px;
+      z-index: 5000;
+    }
+  }
+  
+  @media (max-width: 590px) {
+    .skew {
+      /* border: 1px solid rgb(155, 196, 43); */
+    }
+  
+    .right {
+      right: -2950px;
+      z-index: 1000;
+    }
+  
+    .left {
+      left: -2950px;
+      z-index: 5000;
+    }
+  }
+
+  /* STRIPES   */
+.stripes {
+    top: -30px;
+    position: relative;
+    z-index: 1;
+    height: 0px;
+    width: 500px;
+    margin: 0 auto;
+    background: repeating-linear-gradient(
+      to right,
+      #702614,
+      #702614 30px,
+      #ffd08000 30px,
+      #ffd08000 60px
+    );
+    transform: perspective(25px) rotateX(10deg);
+    overflow: hidden;
+    transition: all 3s;
+  }
+  
+  .stripes.two {
+    top: 0px;
+    width: 500px;
+    height: 0px;
+    background: repeating-linear-gradient(
+      to right,
+      #702614,
+      #702614 30px,
+      #ffd08000 30px,
+      #ffd08000 60px
+    );
+    transform: perspective(30px) rotateX(5deg);
+  }
+  
+  .below {
+    margin-top: 30px;
+    position: relative;
+    z-index: 200;
+    box-sizing: border-box;
+    width: 800px;
+    height: 0px;
+    background: repeating-linear-gradient(
+      to right,
+      #702614,
+      #702614 30px,
+      #ffd08000 30px,
+      #ffd08000 60px
+    );
+    margin: 0 auto;
+    transition: all 6s;
+  }
