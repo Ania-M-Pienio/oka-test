@@ -132,6 +132,10 @@ header {
     height: 75%;
   }
 
+  header {
+    height: 200px;
+  }
+
   .right.expand {
     right: 0;
     left: 70%;
