@@ -180,7 +180,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #bbd8bb;
+  background-color: #ebf3d5;
   clip-path: circle(150px at 80% 20%);
   transition: 0.5s ease-in-out;
 }
@@ -281,6 +281,7 @@ header {
 }
 
 @media (max-width: 830px) {
+  
   .cards-container {
     padding: 10%;
     grid-template-columns: 1fr;
